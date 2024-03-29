@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
+import Collaboration from "./components/Collaboration";
+import Services from "./components/Services";
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
        <Header />
        <Hero />
        <Benefits />
+       <Collaboration />
+       <Services />
       </div>
 
       <ButtonGradient />
